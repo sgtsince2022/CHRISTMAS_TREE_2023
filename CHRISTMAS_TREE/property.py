@@ -3,8 +3,6 @@ from turtle import *
 import random as r
 import time
 
-tree_height = 100.0 
-
 # Bảng màu - COLORS DEFINITIONS
 ## add thêm màu ở đây
 LIKELY_CYAN = '#52ebeb'
@@ -37,7 +35,7 @@ def drawsnow(amount: int = 120, density: int = 5, maxSize: int = 7):
             t.backward(int(snowsize))
             t.right(int(360 / dens))
 
-def drawstar():
+def drawstar(tree_height: float):
     left(90)
     forward(3 * tree_height)
     color("orange", "yellow")  
@@ -81,7 +79,7 @@ def tree(d, s, color_tree: str = LIGHT_GREEN, color_light_1: str = 'tomato', col
     right(120)  
     backward(s)
 
-def trunk():
+def trunk(tree_height: float):
     pensize(2)
     color(BLUE_TO_BROWN_TRANS)
     backward(10.0)
@@ -90,7 +88,7 @@ def trunk():
     color('black')
     backward(50.0)
     color(LIKELY_BROWN)
-    backward(tree_height- 75.0)
+    backward(tree_height - 75.0)
 
 def below_tree(amount: int, color1: str, color2: str, color3: str):
     pensize(2)

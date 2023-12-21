@@ -22,7 +22,7 @@ init('black', 0)
 # CONTENT ADJUSTING AREA (try and see =))
 ## snowflakes
 snowflakes_amount = 120 
-height = tree_height 
+height = 100.0
 ## tree and ornaments
 tree_size = 14 
 tree_color = LIGHT_GREEN
@@ -43,10 +43,10 @@ ms_size = 30
 # int main() {
 drawsnow(snowflakes_amount)  
 up(); goto(0, 0); pd()
-drawstar()
+drawstar(height)
 color(tree_color); backward(height * 4.8)
 tree(tree_size, height, tree_color, light_color1, light_color2)
-trunk()
+trunk(height)
 below_tree(200, 'tomato', 'wheat', PINK)
 message(ms_content, ms_color, ms_size)
 
@@ -56,12 +56,12 @@ t2 = Turtle()
 wn = Screen()
 
 t1.goto(-430.0,-344.0)
-wn.addshape('CHRISTMAS_TREE\\asset\\LOGO.gif')
-t1.shape('CHRISTMAS_TREE\\asset\\LOGO.gif')
+wn.addshape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\LOGO.gif')
+t1.shape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\LOGO.gif')
 
 t2.goto(420.0,-344.0)
-wn.addshape('CHRISTMAS_TREE\\asset\\QR.gif')
-t2.shape('CHRISTMAS_TREE\\asset\\QR.gif')
+wn.addshape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\QR.gif')
+t2.shape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\QR.gif')
 
 t.done()  
 # return 0;
