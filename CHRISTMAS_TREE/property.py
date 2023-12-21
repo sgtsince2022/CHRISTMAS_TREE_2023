@@ -2,6 +2,7 @@ import turtle as t
 from turtle import *
 import random as r
 import time
+import os
 
 # Bảng màu - COLORS DEFINITIONS
 ## add thêm màu ở đây
@@ -14,7 +15,7 @@ PINK = '#f046df'
 
 def init(bgcolor: str = 'black', show_turtle: bool = 0):  
     screensize(bg='black')  
-    speed('fastest') 
+    speed(0) 
     if show_turtle == 1:
         st() 
     else:
