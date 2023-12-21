@@ -2,7 +2,7 @@
 # using Python Turtle
 # 
 # the code snippets and pattern algorithms included in this project
-# is collected, edited and cleaned up by STEAM GIA THIEU.
+# are collected, edited and cleaned up by STEAM GIA THIEU.
 # feel free to edit and share your favourite tree to your homie=).
 #
 # References: Python Turtle Documentation: https://docs.python.org/3/library/turtle.html#
