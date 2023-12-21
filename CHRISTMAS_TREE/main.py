@@ -56,12 +56,12 @@ t2 = Turtle()
 wn = Screen()
 
 t1.goto(-430.0,-344.0)
-wn.addshape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\LOGO.gif')
-t1.shape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\LOGO.gif')
+wn.addshape('CHRISTMAS_TREE_2023-main\\CHRISTMAS_TREE\\asset\\LOGO.gif')
+t1.shape('CHRISTMAS_TREE_2023-main\\CHRISTMAS_TREE\\asset\\LOGO.gif')
 
 t2.goto(420.0,-344.0)
-wn.addshape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\QR.gif')
-t2.shape('CHRISTMAS_TREE_2023\\CHRISTMAS_TREE\\asset\\QR.gif')
+wn.addshape('CHRISTMAS_TREE_2023-main\\CHRISTMAS_TREE\\asset\\QR.gif')
+t2.shape('CHRISTMAS_TREE_2023-main\\CHRISTMAS_TREE\\asset\\QR.gif')
 
 t.done()  
 # return 0;
