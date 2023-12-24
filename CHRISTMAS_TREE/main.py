@@ -22,8 +22,8 @@ init('black', 0)
 # CONTENT ADJUSTING AREA (try and see =))
 ## snowflakes
 snowflakes_amount = 120 
-height = 100.0
 ## tree and ornaments
+height = 100.0
 tree_size = 14 
 tree_color = LIGHT_GREEN
 light_color1 = 'tomato'
@@ -50,7 +50,7 @@ trunk(height)
 below_tree(200, 'tomato', 'wheat', PINK)
 message(ms_content, ms_color, ms_size)
 
-# some additional stuffs
+# some additional stuffs - remove if u want our logo and infs disappear.
 crdir = os.getcwd()
 t1 = Turtle()
 t2 = Turtle()
